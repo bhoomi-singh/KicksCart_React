@@ -1,0 +1,22 @@
+.shop {
+    padding: 20px;
+  }
+  
+  .shopTitle {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #372ac6; 
+    font-family:monospace;
+    font-weight: bold; /* Make it bold */
+    font-size: 1rem;
+    /* text-transform: uppercase; Uppercase text */
+    letter-spacing: 2px; /* Adjust letter spacing for better readability */
+  }
+  
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  

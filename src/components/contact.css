@@ -1,0 +1,64 @@
+.contact-container {
+    padding: 40px;
+    background: transparent; /* No additional background for the whole container */
+  }
+  
+  .contact-details,
+  .contact-form-container {
+    background: #ffffff; /* White background for the individual boxes */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Space between the two boxes */
+  }
+  
+  .contact-details {
+    margin-bottom: 20px;
+  }
+  
+  .contact-item {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .contact-icon {
+    font-size: 20px;
+    color: #1890ff;
+    margin-right: 8px;
+  }
+  
+  .contact-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .contact-list li {
+    margin-bottom: 8px;
+  }
+  
+  .contact-form-container {
+    max-width: 600px;
+  }
+  
+  .contact-form .ant-form-item-label > label {
+    color: #333;
+    font-weight: bold;
+  }
+  
+  .contact-form .ant-input,
+  .contact-form .ant-input-textarea {
+    border-radius: 8px;
+    border: 1px solid #d9d9d9;
+  }
+  
+  .contact-form .ant-input:focus,
+  .contact-form .ant-input-textarea:focus {
+    border-color: #1890ff;
+    box-shadow: 0 0 0 2px rgba(24, 144, 255, 0.2);
+  }
+  
+  .submit-button {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
