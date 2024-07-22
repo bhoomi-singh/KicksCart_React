@@ -4,7 +4,6 @@ import { ShoppingCart } from "phosphor-react";
 import { Button, Modal, Typography } from "antd";
 import { Spring, animated } from 'react-spring';
 import "./navbar.css";
-//import GoldMembership from "./pages/GoldMembership";
 
 const { Title, Paragraph } = Typography;
 
